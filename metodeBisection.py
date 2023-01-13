@@ -1,3 +1,5 @@
+#Algoritma Metode Bagi Dua
+
 import numpy as np
 import matplotlib.pyplot as plt
 
