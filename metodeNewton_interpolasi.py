@@ -8,9 +8,6 @@ plt.style.use('seaborn-poster')
 %matplotlib inline
 
 def divided_diff(x, y):
-    '''
-    Fungsi untuk menghitung tabel selisih-terbagi
-    '''
     n = len(y)
     coef = np.zeros([n, n])
     # the first column is y
@@ -24,9 +21,6 @@ def divided_diff(x, y):
     return coef
 
 def newton_poly(coef, x_data, x):
-    '''
-    Evaluasi polinom Newton di x
-    '''
     n = len(x_data) - 1 
     p = coef[n]
     for k in range(1,n+1):
