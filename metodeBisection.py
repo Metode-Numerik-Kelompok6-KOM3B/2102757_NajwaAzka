@@ -1,4 +1,4 @@
-#Algoritma Metode Bagi Dua
+# Algoritma metode Bisection
 
 import numpy as np
 import matplotlib.pyplot as plt
