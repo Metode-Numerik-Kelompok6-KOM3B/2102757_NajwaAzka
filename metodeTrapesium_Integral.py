@@ -2,8 +2,8 @@
 
 e= 2.71828
 def f(x):
-    pepega = eval(fx)
-    return pepega
+    a = eval(fx)
+    return a
 
 def trapezoidal(x,y,z): 
     h = (y - x) / z
