@@ -32,4 +32,4 @@ def simpson13(x0,xn,n):
 
 # Menampilkan Hasil
 result = simpson13(batasBawah, batasAtas, sub_interval)
-print("Integration result by Simpson's 1/3 method is: %0.6f"%(result))
+print("Hasil integrasi dari metode Simpson 1/3: %0.6f"%(result))
